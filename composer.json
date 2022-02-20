@@ -1,0 +1,26 @@
+{
+    "name": "jdlxnl/admin-ui",
+    "description": "Front end package for JDLX powered back-end",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jeroen de Lau",
+            "email": "jeroen.delau@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jdlx\\AdminUi\\Provider\\JdlxAdminUIServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Jdlx\\AdminUi": "src/"
+        }
+    },
+    "require": {
+
+    }
+}
