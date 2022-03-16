@@ -1,6 +1,6 @@
 <?php
 
-namespace Jdlx\AdminUi;
+namespace Jdlx\AdminUi\Provider;
 
 
 use Illuminate\Support\ServiceProvider;
